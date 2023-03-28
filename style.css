@@ -62,7 +62,7 @@
     display: none;
 }
 
-@media (max-width:800px) {
+@media screen and (max-width:800px) {
     .main img:nth-child(1) {
         display: none;
     }
@@ -76,7 +76,7 @@
     }
 }
 
-@media (max-width:500px) {
+@media screen and (max-width:500px) {
     .navbar button {
         display: flex;
     }
